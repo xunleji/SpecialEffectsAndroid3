@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ripple="http://schemas.android.com/apk/res/com.example.specialeffectsandroid3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2d2d2" >
+
+    <com.example.specialeffectsandroid3.rippleview.RippleView
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/card_bk"
+        android:gravity="center"
+        android:padding="35dp"
+        android:text="click_me"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        ripple:alphaFactor="0.7"
+        ripple:hover="true"
+        ripple:ripplesColor="#58FAAC" />
+
+</RelativeLayout>

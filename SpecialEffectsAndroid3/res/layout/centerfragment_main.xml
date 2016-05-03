@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+  
+    <TextView  
+        android:id="@+id/toptv"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:gravity="center"  
+        android:text="我不是微信"  
+        android:textColor="#c0c0c0"  
+        android:textSize="20sp"  
+        android:textStyle="bold" />  
+
+</RelativeLayout>

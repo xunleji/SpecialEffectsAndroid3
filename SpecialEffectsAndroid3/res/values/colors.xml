@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ===========drawlayout================= -->
+    <color name="light_gray">#c2c7cc</color> <!-- 按钮颜色 -->
+    <color name="dark_gray">#3d454c</color> <!-- 标题栏背景色 -->
+    <color name="dark_gray_pressed">#373e44</color> <!-- 按钮点击时背景颜色 -->
+    <color name="darker_gray">#1f2226</color> <!-- 抽屉菜单底色 -->
+    <color name="trancelate">#00000000</color>
+    <!-- =============zxing=========== -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="white">#ffffffff</color>
+    
+     <color name="blue">#33b5e5</color>
+    <color name="darkblue">#0099cc</color>
+    <color name="red">#ff4444</color>
+    <color name="grayStart">#adadad</color>
+    <color name="grayEnd">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_handle_pressed">#a0a0a0</color>
+    <color name="holo_purple">#ffaa66cc</color>
+	<color name="holo_purple2">#FF6347</color>
+	
+	<color name="inset">#9000</color>
+	<color name="frame">@android:color/black</color>
+	
+	 <color name="green_fg">#008000</color>
+    <color name="blue_bg">#e4ecfb</color>
+    <color name="dark_blue_fg">#3f51b5</color>
+    <color name="purple">#9c27b0</color>
+    
+    <color name="text_color">#191919</color>
+    <color name="text_color_light">#7e7e7e</color>
+    <color name="diliver">#c7c8c8</color>
+    <color name="global_bg">#fbfcfc</color>
+    <color name="title_bg">#37bcb2</color>
+    <color name="title_bg_pressed">#99dcd7</color>
+    
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+    
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="item_file_title_color">#424242</color>
+    <color name="empty_directory_hint">#c7c7c7</color>
+
+    <color name="compatibility_pressed_color">#1a000000</color>
+    <color name="compatibility_focus_color">#48000000</color>
+    
+
+</resources>

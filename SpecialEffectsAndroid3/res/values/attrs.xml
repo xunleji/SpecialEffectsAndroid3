@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="color_wheel_radius" format="dimension" />
+        <attr name="color_wheel_thickness" format="dimension" />
+        <attr name="color_center_radius" format="dimension" />
+        <attr name="color_center_halo_radius" format="dimension" />
+        <attr name="color_pointer_radius" format="dimension" />
+        <attr name="color_pointer_halo_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ColorBars">
+        <attr name="bar_thickness" format="dimension" />
+        <attr name="bar_length" format="dimension" />
+        <attr name="bar_pointer_radius" format="dimension" />
+        <attr name="bar_pointer_halo_radius" format="dimension" />
+        <attr name="bar_orientation_horizontal" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlipViewController">
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+        <attr name="animationBitmapFormat" format="enum">
+            <enum name="ARGB_8888" value="0" />
+            <enum name="ARGB_4444" value="1" />
+            <enum name="RGB_565" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SelectorOptions">
+        <attr name="selectorColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ListBuddiesOptions">
+        <attr name="gap" format="reference" />
+        <attr name="gapColor" format="color" />
+        <attr name="speed" format="integer" />
+        <attr name="listsDivider" format="reference" />
+        <attr name="listsDividerHeight" format="reference" />
+        <attr name="autoScrollFaster" format="enum">
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+        </attr>
+        <attr name="scrollFaster" format="enum">
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DrawInsetsFrameLayout">
+        <attr name="insetBackground" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="whorlview_style">
+
+        <!--
+        <attr name="WhorlView_SmallWhorlColor" format="color" />
+        <attr name="WhorlView_MiddleWhorlColor" format="color" />
+        <attr name="WhorlView_BigWhorlColor" format="color" />
+        -->
+
+        <attr name="whorlview_circle_colors" format="string" />
+        <attr name="whorlview_circle_speed" format="integer" />
+        <attr name="whorlview_parallax">
+            <enum name="fast" value="1" />
+            <enum name="medium" value="0" />
+            <enum name="slow" value="2" />
+        </attr>
+        <attr name="whorlview_sweepAngle" format="float" />
+        <attr name="whorlview_strokeWidth" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ContainerView">
+        <attr name="card_item_height" format="dimension" />
+        <attr name="card_item_margin" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RadarScanView">
+        <attr name="circleColor" format="color" />
+        <attr name="radarColor" format="color" />
+        <attr name="tailColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RippleView">
+        <attr name="ripplesColor" format="color" />
+        <attr name="alphaFactor" format="float" />
+        <attr name="hover" format="boolean" />
+    </declare-styleable>
+    
+    <attr name="mfp_toolbar_theme" format="reference"/>
+
+</resources>

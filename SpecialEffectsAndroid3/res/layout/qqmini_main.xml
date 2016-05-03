@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/homeLeft"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/friend_list_bg_repeat" >
+        </LinearLayout>
+
+        <com.example.specialeffectsandroid3.qqmini.MyLinearLayout
+            android:id="@+id/homeRight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/bg" />
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bottom" />
+        </com.example.specialeffectsandroid3.qqmini.MyLinearLayout>
+
+        <com.example.specialeffectsandroid3.qqmini.HomeCenterLayout
+            android:id="@+id/homeCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray" >
+
+                <include layout="@layout/common_title_bg" />
+            </LinearLayout>
+        </com.example.specialeffectsandroid3.qqmini.HomeCenterLayout>
+    </FrameLayout>
+
+</LinearLayout>
